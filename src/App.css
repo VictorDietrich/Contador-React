@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contador{
+background-color:rgb(80, 80, 80);    
+color: white;  
+display: grid;  
+place-items: center;
+width: 20%;
+height: 200px;
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+margin-top: 15%;
+border-radius: 15px;
+transition-duration: 0.5s;
+}
+.Numero{
+font-size: 50px;
+transition-duration: 0.5s;
+}
+.btn{
+    border: none;
+    height: 25px;
+    width: 50px;
+    transition-duration: 0.5s;
+}
+.e{
+    border-radius: 10px 0px 0px 10px;
+}
+.d{
+    border-radius: 0px 10px 10px 0px;
+}
+.btn:hover{
+    height: 30px;
+    width: 55px;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+.contador:hover{
+    width: 21%;
+    height: 205px;
+    transition-duration: 0.5s;
+}
+.Numero:hover{
+    font-size: 60px;
+    transition-duration: 0.5s;
+    text-shadow: 0 0 1em rgb(0, 0, 0);
+}
+.Nome:hover{
+    font-size: 30px;
+    transition-duration: 0.5s;
+    text-shadow: 0 0 1em rgb(0, 0, 0);
+}
